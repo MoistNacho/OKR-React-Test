@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "skipLibCheck": true,
+    "strict": true,
+    "types": ["cypress", "node", "cypress-react-selector"]
+  },
+  "include": [
+    // spec files
+    "*/*.ts"
+  ]
+}
