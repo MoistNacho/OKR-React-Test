@@ -1,10 +1,14 @@
 import React from "react";
 import { hot } from "react-hot-loader/root";
 
-import { HomeBody } from "modules/todo";
+import { HomeBody, TodoProvider } from "modules/todo";
 
 const HomePage = () => {
-  return <HomeBody />;
+  return (
+    <TodoProvider>
+      <HomeBody />
+    </TodoProvider>
+  );
 };
 
 export default hot(HomePage);
