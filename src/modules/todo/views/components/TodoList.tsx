@@ -12,8 +12,9 @@ const TodoList = observer(() => {
 
   return (
     <StyledWrap>
+      <ListCount>Item Count: {todoList.length}</ListCount>
       <StyledList>
-        {todoList?.map((item, index) => {
+        {todoList.map((item, index) => {
           return (
             <TodoItem
               key={item.id}
@@ -55,4 +56,10 @@ const StyledList = styled.ul`
     padding-bottom: 0px;
     border-bottom: none;
   }
+`;
+
+const ListCount = styled.div`
+  padding-right: 4px;
+  margin-bottom: 8px;
+  text-align: right;
 `;

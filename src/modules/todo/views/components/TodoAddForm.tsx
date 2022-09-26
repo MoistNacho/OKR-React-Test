@@ -1,5 +1,4 @@
 import { ButtonV2, TextInputV2 } from "@meshkorea/vroong-design-system-web";
-import { observer } from "mobx-react";
 import React, { useCallback, useState } from "react";
 import styled from "styled-components";
 
@@ -7,7 +6,7 @@ interface TodoAddFormProps {
   onCreate: (value: string) => void;
 }
 
-const TodoAddForm = observer(({ onCreate }: TodoAddFormProps) => {
+const TodoAddForm = ({ onCreate }: TodoAddFormProps) => {
   const [value, setValue] = useState<string>();
 
   const handleInputValue = useCallback((v: string) => {
@@ -32,7 +31,7 @@ const TodoAddForm = observer(({ onCreate }: TodoAddFormProps) => {
       </ButtonV2>
     </AddTodoWrap>
   );
-});
+};
 
 export default TodoAddForm;
 

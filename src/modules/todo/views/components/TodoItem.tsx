@@ -1,5 +1,4 @@
 import { ButtonV2 } from "@meshkorea/vroong-design-system-web";
-import { observer } from "mobx-react";
 import React, { useCallback, useRef, useState } from "react";
 import styled from "styled-components";
 
@@ -12,7 +11,7 @@ interface TodoItemProps {
   onRemove: (id: number) => void;
 }
 
-const TodoItem = observer(({ item, id, onUpdate, onRemove }: TodoItemProps) => {
+const TodoItem = ({ item, id, onUpdate, onRemove }: TodoItemProps) => {
   const [isEdit, setIsEdit] = useState(false);
   const [inputError, setInputError] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
@@ -23,12 +22,12 @@ const TodoItem = observer(({ item, id, onUpdate, onRemove }: TodoItemProps) => {
   }, [isEdit]);
 
   const handleUpdate = useCallback(() => {
-    const name = inputRef.current?.value;
+    const { value } = inputRef.current!;
 
-    if (!name) {
+    if (!value) {
       setInputError(true);
     } else {
-      onUpdate(item.id, name);
+      onUpdate(item.id, value);
       setIsEdit(false);
       setInputError(false);
     }
@@ -40,10 +39,15 @@ const TodoItem = observer(({ item, id, onUpdate, onRemove }: TodoItemProps) => {
 
   return (
     <ListItem>
-      {inputError && <Required>내용을 입력해주세요</Required>}
+      {inputError && <Required>아이템 이름은 필수값입니다</Required>}
       {isEdit ? (
         <InputWrap>
-          <input ref={inputRef} type="text" defaultValue={item.name} />
+          <input
+            ref={inputRef}
+            type="text"
+            placeholder="아이템 이름을 입력해주세요"
+            defaultValue={item.name}
+          />
           <ButtonsWrap>
             <ButtonV2 onClick={handleUpdate}>완료</ButtonV2>
             <ButtonV2 style={{ color: "#fa5c5c" }} onClick={handleEdit}>
@@ -64,7 +68,7 @@ const TodoItem = observer(({ item, id, onUpdate, onRemove }: TodoItemProps) => {
       )}
     </ListItem>
   );
-});
+};
 
 export default TodoItem;
 

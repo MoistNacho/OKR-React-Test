@@ -1,15 +1,11 @@
 import { action, observable } from "mobx";
 
-import Core from "core";
-
 export type TodoItem = {
   id: number;
   name: string;
 };
 
 export default class TodoStore {
-  public core?: Core;
-
   @observable
   public todoList: TodoItem[] = [
     { id: 0, name: "Javascript" },
@@ -19,12 +15,6 @@ export default class TodoStore {
 
   @observable
   public nextId = 3;
-
-  constructor(core?: Core) {
-    if (core) {
-      this.core = core;
-    }
-  }
 
   @action.bound
   public handleAddItem(name: string) {

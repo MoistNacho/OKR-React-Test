@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TodoList /> renders with snapshot 1`] = `
+<div
+  className="sc-hCgVqe bKHDAN"
+>
+  <h2
+    className="sc-eELIPF gLvgVN"
+  >
+    Simple Todo List
+  </h2>
+  <div
+    className="sc-bPPhlf enuzHx"
+  >
+    <div
+      className="sc-dZeWys eRorbB"
+      width="400px"
+    >
+      <div
+        className="sc-hbyLVd eJEjZG"
+        disabled={false}
+      >
+        <input
+          className="sc-oclUV dpdYNp"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          onKeyPress={[Function]}
+          placeholder="값을 입력해주세요"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <button
+      className="sc-bczRLJ iehTtZ"
+      disabled={true}
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      type="button"
+    >
+      확인
+    </button>
+  </div>
+  <div
+    className="sc-foDcoF iOljnP"
+  >
+    <div
+      className="sc-hQXzsD IhLXJ"
+    >
+      Item Count: 
+      3
+    </div>
+    <ul
+      className="sc-eZMymg glaGss"
+    >
+      <li
+        className="sc-hrZiYQ kqSlcB"
+      >
+        <div
+          className="sc-caiQmJ bobVMG"
+        >
+          <span>
+            1. Javascript
+          </span>
+          <div
+            className="sc-jnCuNW AxYum"
+          >
+            <button
+              className="sc-bczRLJ iehTtZ"
+              disabled={false}
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              type="button"
+            >
+              수정
+            </button>
+            <button
+              className="sc-bczRLJ iehTtZ"
+              disabled={false}
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              style={
+                Object {
+                  "color": "#fa5c5c",
+                }
+              }
+              type="button"
+            >
+              삭제
+            </button>
+          </div>
+        </div>
+      </li>
+      <li
+        className="sc-hrZiYQ kqSlcB"
+      >
+        <div
+          className="sc-caiQmJ bobVMG"
+        >
+          <span>
+            2. React
+          </span>
+          <div
+            className="sc-jnCuNW AxYum"
+          >
+            <button
+              className="sc-bczRLJ iehTtZ"
+              disabled={false}
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              type="button"
+            >
+              수정
+            </button>
+            <button
+              className="sc-bczRLJ iehTtZ"
+              disabled={false}
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              style={
+                Object {
+                  "color": "#fa5c5c",
+                }
+              }
+              type="button"
+            >
+              삭제
+            </button>
+          </div>
+        </div>
+      </li>
+      <li
+        className="sc-hrZiYQ kqSlcB"
+      >
+        <div
+          className="sc-caiQmJ bobVMG"
+        >
+          <span>
+            3. Next.js
+          </span>
+          <div
+            className="sc-jnCuNW AxYum"
+          >
+            <button
+              className="sc-bczRLJ iehTtZ"
+              disabled={false}
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              type="button"
+            >
+              수정
+            </button>
+            <button
+              className="sc-bczRLJ iehTtZ"
+              disabled={false}
+              onClick={[Function]}
+              onKeyPress={[Function]}
+              style={
+                Object {
+                  "color": "#fa5c5c",
+                }
+              }
+              type="button"
+            >
+              삭제
+            </button>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

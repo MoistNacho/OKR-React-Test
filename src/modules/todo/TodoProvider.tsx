@@ -1,6 +1,5 @@
 import React from "react";
 
-import { useCore } from "core";
 import { generateUseContext } from "lib/context";
 
 import TodoStore from "./TodoStore";
@@ -11,19 +10,14 @@ export interface TodoContext {
 
 interface Props {
   children: React.ReactNode;
+  stores: TodoContext;
 }
 
 const LocalContext = React.createContext<TodoContext | null>(null);
 
 export const useTodoStore = generateUseContext(LocalContext);
 
-const TodoProvider: React.FC<Props> = ({ children }) => {
-  const core = useCore();
-
-  const [stores] = React.useState<TodoContext>(() => ({
-    todoStore: new TodoStore(core),
-  }));
-
+const TodoProvider: React.FC<Props> = ({ children, stores }) => {
   return (
     <LocalContext.Provider value={stores}>{children}</LocalContext.Provider>
   );

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TodoAddForm /> renders with snapshot 1`] = `
+<div
+  className="sc-bPPhlf enuzHx"
+>
+  <div
+    className="sc-dZeWys eRorbB"
+    width="400px"
+  >
+    <div
+      className="sc-hbyLVd eJEjZG"
+      disabled={false}
+    >
+      <input
+        className="sc-oclUV dpdYNp"
+        onChange={[Function]}
+        onKeyDown={[Function]}
+        onKeyPress={[Function]}
+        placeholder="값을 입력해주세요"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+  <button
+    className="sc-bczRLJ iehTtZ"
+    disabled={true}
+    onClick={[Function]}
+    onKeyPress={[Function]}
+    type="button"
+  >
+    확인
+  </button>
+</div>
+`;
