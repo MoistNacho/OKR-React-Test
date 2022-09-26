@@ -2,10 +2,10 @@
 
 exports[`<TodoList /> renders with snapshot 1`] = `
 <div
-  className="sc-hCgVqe bKHDAN"
+  className="sc-hCgVqe kzJvFz"
 >
   <h2
-    className="sc-eELIPF gLvgVN"
+    className="sc-eELIPF gvtDLV"
   >
     Simple Todo List
   </h2>
@@ -57,7 +57,7 @@ exports[`<TodoList /> renders with snapshot 1`] = `
         className="sc-hrZiYQ kqSlcB"
       >
         <div
-          className="sc-caiQmJ bobVMG"
+          className="sc-caiQmJ ekyrCo"
         >
           <span>
             1. Javascript
@@ -95,7 +95,7 @@ exports[`<TodoList /> renders with snapshot 1`] = `
         className="sc-hrZiYQ kqSlcB"
       >
         <div
-          className="sc-caiQmJ bobVMG"
+          className="sc-caiQmJ ekyrCo"
         >
           <span>
             2. React
@@ -133,7 +133,7 @@ exports[`<TodoList /> renders with snapshot 1`] = `
         className="sc-hrZiYQ kqSlcB"
       >
         <div
-          className="sc-caiQmJ bobVMG"
+          className="sc-caiQmJ ekyrCo"
         >
           <span>
             3. Next.js

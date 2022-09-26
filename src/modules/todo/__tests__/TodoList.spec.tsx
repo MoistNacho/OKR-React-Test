@@ -45,16 +45,6 @@ describe("<TodoList />", () => {
       render(wrraper);
     });
 
-    // it("addForm input에 값을 입력후 '확인'버튼을 클릭시 리스트에 아이템이 추가되고 handleAddItem이 호출된다", async () => {
-    //   const { todoList, handleAddItem } = stores.todoStore;
-    //   const input = screen.getByPlaceholderText("값을 입력해주세요");
-
-    //   await userEvent.type(input, "New Item");
-
-    //   expect(todoList.length).toBe(4);
-    //   expect(handleAddItem).toHaveBeenCalledTimes(1);
-    // });
-
     it("Item Update Test", async () => {
       editButton = screen.getAllByRole("button", { name: "수정" })[0];
 

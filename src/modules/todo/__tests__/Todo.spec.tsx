@@ -13,7 +13,7 @@ import TodoProvider, { TodoContext } from "../TodoProvider";
 import TodoStore from "../TodoStore";
 import HomeBody from "../views/HomeBody";
 
-describe("<TodoList />", () => {
+describe("<HomeBody />", () => {
   let stores: TodoContext;
   let wrraper: React.ReactElement;
 

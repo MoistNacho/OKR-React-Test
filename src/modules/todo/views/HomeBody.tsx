@@ -24,7 +24,9 @@ export default HomeBody;
 
 const HomeBodyWrap = styled.div`
   width: 800px;
-  margin: 0 auto;
+  margin: 30px auto;
+  padding: 15px;
+  border: 2px solid #ddd;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,5 +39,5 @@ const HomeBodyWrap = styled.div`
 `;
 
 const Title = styled.h2`
-  margin: 12px auto;
+  margin: 0 auto 12px;
 `;

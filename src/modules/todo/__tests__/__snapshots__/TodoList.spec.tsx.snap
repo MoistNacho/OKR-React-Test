@@ -17,7 +17,7 @@ exports[`<TodoList /> renders with snapshot 1`] = `
       className="sc-bPPhlf kkCVUQ"
     >
       <div
-        className="sc-hrZiYQ eyhTWK"
+        className="sc-hrZiYQ vUlBg"
       >
         <span>
           1. Javascript
@@ -55,7 +55,7 @@ exports[`<TodoList /> renders with snapshot 1`] = `
       className="sc-bPPhlf kkCVUQ"
     >
       <div
-        className="sc-hrZiYQ eyhTWK"
+        className="sc-hrZiYQ vUlBg"
       >
         <span>
           2. React
@@ -93,7 +93,7 @@ exports[`<TodoList /> renders with snapshot 1`] = `
       className="sc-bPPhlf kkCVUQ"
     >
       <div
-        className="sc-hrZiYQ eyhTWK"
+        className="sc-hrZiYQ vUlBg"
       >
         <span>
           3. Next.js

@@ -5,7 +5,7 @@ exports[`<TodoItem /> renders with snapshot 1`] = `
   className="sc-bPPhlf kkCVUQ"
 >
   <div
-    className="sc-hrZiYQ eyhTWK"
+    className="sc-hrZiYQ vUlBg"
   >
     <span>
       1. renderTest
