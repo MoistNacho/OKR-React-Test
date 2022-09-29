@@ -2,18 +2,18 @@
 
 exports[`<TodoAddForm /> renders with snapshot 1`] = `
 <div
-  className="sc-bPPhlf enuzHx"
+  className="sc-bPaAec hDWzBG"
 >
   <div
-    className="sc-dZeWys eRorbB"
+    className="sc-dZTDFv bJPCES"
     width="400px"
   >
     <div
-      className="sc-hbyLVd eJEjZG"
+      className="sc-hbWBzy dJsoGE"
       disabled={false}
     >
       <input
-        className="sc-oclUV dpdYNp"
+        className="sc-nTrUm fNPogZ"
         onChange={[Function]}
         onKeyDown={[Function]}
         onKeyPress={[Function]}
@@ -24,7 +24,7 @@ exports[`<TodoAddForm /> renders with snapshot 1`] = `
     </div>
   </div>
   <button
-    className="sc-bczRLJ iehTtZ"
+    className="sc-bcXHqe dCAPbY"
     disabled={true}
     onClick={[Function]}
     onKeyPress={[Function]}

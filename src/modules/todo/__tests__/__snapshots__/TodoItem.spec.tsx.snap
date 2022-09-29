@@ -2,19 +2,19 @@
 
 exports[`<TodoItem /> renders with snapshot 1`] = `
 <li
-  className="sc-bPPhlf kkCVUQ"
+  className="sc-bPaAec dktxlz"
 >
   <div
-    className="sc-hrZiYQ vUlBg"
+    className="sc-hshgAP elPoGv"
   >
     <span>
       1. renderTest
     </span>
     <div
-      className="sc-caiQmJ cMBdbM"
+      className="sc-bZZWma gmfkxH"
     >
       <button
-        className="sc-bczRLJ iehTtZ"
+        className="sc-bcXHqe dCAPbY"
         disabled={false}
         onClick={[Function]}
         onKeyPress={[Function]}
@@ -23,7 +23,7 @@ exports[`<TodoItem /> renders with snapshot 1`] = `
         수정
       </button>
       <button
-        className="sc-bczRLJ iehTtZ"
+        className="sc-bcXHqe dCAPbY"
         disabled={false}
         onClick={[Function]}
         onKeyPress={[Function]}

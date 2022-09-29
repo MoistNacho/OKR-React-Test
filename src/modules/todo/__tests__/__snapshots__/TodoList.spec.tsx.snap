@@ -2,31 +2,31 @@
 
 exports[`<TodoList /> renders with snapshot 1`] = `
 <div
-  className="sc-dVMcbP fTwbdi"
+  className="sc-dUXuUM flURpb"
 >
   <div
-    className="sc-eZMymg jXNLcY"
+    className="sc-faBftj sWJNz"
   >
     Item Count: 
     3
   </div>
   <ul
-    className="sc-foDcoF RWhZW"
+    className="sc-fpaRTa bBpnAW"
   >
     <li
-      className="sc-bPPhlf kkCVUQ"
+      className="sc-bPaAec dktxlz"
     >
       <div
-        className="sc-hrZiYQ vUlBg"
+        className="sc-hshgAP elPoGv"
       >
         <span>
           1. Javascript
         </span>
         <div
-          className="sc-caiQmJ cMBdbM"
+          className="sc-bZZWma gmfkxH"
         >
           <button
-            className="sc-bczRLJ iehTtZ"
+            className="sc-bcXHqe dCAPbY"
             disabled={false}
             onClick={[Function]}
             onKeyPress={[Function]}
@@ -35,7 +35,7 @@ exports[`<TodoList /> renders with snapshot 1`] = `
             수정
           </button>
           <button
-            className="sc-bczRLJ iehTtZ"
+            className="sc-bcXHqe dCAPbY"
             disabled={false}
             onClick={[Function]}
             onKeyPress={[Function]}
@@ -52,19 +52,19 @@ exports[`<TodoList /> renders with snapshot 1`] = `
       </div>
     </li>
     <li
-      className="sc-bPPhlf kkCVUQ"
+      className="sc-bPaAec dktxlz"
     >
       <div
-        className="sc-hrZiYQ vUlBg"
+        className="sc-hshgAP elPoGv"
       >
         <span>
           2. React
         </span>
         <div
-          className="sc-caiQmJ cMBdbM"
+          className="sc-bZZWma gmfkxH"
         >
           <button
-            className="sc-bczRLJ iehTtZ"
+            className="sc-bcXHqe dCAPbY"
             disabled={false}
             onClick={[Function]}
             onKeyPress={[Function]}
@@ -73,7 +73,7 @@ exports[`<TodoList /> renders with snapshot 1`] = `
             수정
           </button>
           <button
-            className="sc-bczRLJ iehTtZ"
+            className="sc-bcXHqe dCAPbY"
             disabled={false}
             onClick={[Function]}
             onKeyPress={[Function]}
@@ -90,19 +90,19 @@ exports[`<TodoList /> renders with snapshot 1`] = `
       </div>
     </li>
     <li
-      className="sc-bPPhlf kkCVUQ"
+      className="sc-bPaAec dktxlz"
     >
       <div
-        className="sc-hrZiYQ vUlBg"
+        className="sc-hshgAP elPoGv"
       >
         <span>
           3. Next.js
         </span>
         <div
-          className="sc-caiQmJ cMBdbM"
+          className="sc-bZZWma gmfkxH"
         >
           <button
-            className="sc-bczRLJ iehTtZ"
+            className="sc-bcXHqe dCAPbY"
             disabled={false}
             onClick={[Function]}
             onKeyPress={[Function]}
@@ -111,7 +111,7 @@ exports[`<TodoList /> renders with snapshot 1`] = `
             수정
           </button>
           <button
-            className="sc-bczRLJ iehTtZ"
+            className="sc-bcXHqe dCAPbY"
             disabled={false}
             onClick={[Function]}
             onKeyPress={[Function]}
